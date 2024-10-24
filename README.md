@@ -7,15 +7,16 @@ This project implements a rule engine that dynamically creates, combines, and ev
 ## Setup
 
 1. Clone the repository:
-    ```bash
+   
     git clone https://github.com/Harisudhan23/Rule-engine.git
+    ```bash
     cd Rule-engine
     ```
 
 2. Create a virtual environment and activate it:
     ```bash
     python -m venv venv
-    venv\Scripts\activate      # For Windows
+    venv\Scripts\activate      
     ```
 
 3. Install the dependencies:
@@ -70,3 +71,6 @@ combined_ast = combine_rules(ast_rule1, ast_rule2, "AND")
 user_data2 = {"age": 28, "department": "Marketing", "salary": 45000, "experience": 6}
 result_combined = evaluate_rule(combined_ast, user_data2)
 print(f"Evaluation result for combined rule: {result_combined}")
+```
+## License
+   This project is licensed under the MIT License. See the LICENSE file for more details.
