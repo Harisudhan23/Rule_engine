@@ -1,4 +1,4 @@
-# Rule Engine for Dynamic Evaluation
+# Rule Engine Application
 
 ## Description
 
